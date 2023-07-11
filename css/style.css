@@ -227,3 +227,24 @@ section#deal {
 .deal-img {
     flex-basis: 45%;
 }
+
+/* ==================
+Instagram Section
+===================== */
+section#instagram {
+    padding: 125px;
+}
+
+.instagram-post {
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.instagram-post {
+    flex-basis: 25%;
+}
+
+.instagram-post img {
+    width: 100%;
+}
