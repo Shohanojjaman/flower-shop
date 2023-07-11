@@ -248,3 +248,37 @@ section#instagram {
 .instagram-post img {
     width: 100%;
 }
+
+/* ================
+Subscribe Section
+=================== */
+section#subscribe {
+    padding-bottom: 125px;
+}
+
+.subscription-detail {
+    background: url(../image/Rectangle9.png) center center no-repeat;
+    background-size: cover;
+    padding: 125px 0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.subscription-detail h2 {
+    font-size: 40px;
+}
+
+.subscription-detail p {
+    margin: 16px 0 50px;
+}
+
+.subscription-detail input[type="email"] {
+    width: 700px;
+    padding: 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    color: #27272799;
+    margin-right: 16px;
+}
