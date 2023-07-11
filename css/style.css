@@ -283,6 +283,10 @@ section#subscribe {
     margin-right: 16px;
 }
 
+.subscription-detail input[type="email"]:focus {
+    outline: none;
+}
+
 /* =============
 Footer Section
 ================ */
