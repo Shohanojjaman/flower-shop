@@ -191,3 +191,39 @@ section#service {
     padding: 85px;
     border-radius: 8px;
 }
+
+/* =============
+Deal Section
+================ */
+section#deal {
+    background-color: #E554730D;
+    border-radius: 8px;
+    padding: 100px 0;
+}
+
+.deal-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.deal-description {
+    flex-basis: 55%;
+    padding-left: 160px;
+}
+
+.deal-description h2 {
+    font-size: 40px;
+}
+
+.deal-description h2 span {
+    color: #E55473;
+}
+
+.deal-description p {
+    padding: 24px 0 30px;
+}
+
+.deal-img {
+    flex-basis: 45%;
+}
