@@ -282,3 +282,37 @@ section#subscribe {
     color: #27272799;
     margin-right: 16px;
 }
+
+/* =============
+Footer Section
+================ */
+footer {
+    background-color: #111010;
+    text-align: center;
+    padding: 125px 0;
+}
+
+.footer-content {
+    width: 625px;
+    margin: 0 auto;
+}
+
+.footer-content h2 {
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.footer-content h2 span {
+    color: #E55473;
+}
+
+.footer-content p {
+    color: #FFFFFFE5;
+}
+
+.footer-content p.copy {
+    font-size: 16px;
+    margin-top: 32px;
+    color: #FFFFFF66;
+}
