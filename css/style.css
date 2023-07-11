@@ -48,6 +48,24 @@ h6 {
     border-color: #E55473;
 }
 
+.section-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-title p {
+    color: #27272799;
+}
+
 /* =============
 Header Section
 ================ */
@@ -95,4 +113,64 @@ header {
 
 .banner-img img {
     width: 600px;
+}
+
+/* ===============
+Feature Section
+================== */
+section#feature {
+    padding: 170px 0 120px;
+}
+
+.feature-flower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.feature-flower {
+    gap: 25px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.feature-item {
+    flex-basis: 33%;
+}
+
+.flower-img {
+    border-radius: 300px 300px 0 0;
+    padding: 110px 75px 0;
+    height: 550px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.flower-img img {
+    width: 310px;
+    height: auto;
+    max-height: 430px;
+}
+
+.flower-img.one {
+    background-color: #A7216226;
+}
+
+.flower-img.two {
+    background-color: #0597A026;
+    padding-bottom: 50px;
+}
+
+.flower-img.three {
+    background-color: #477D1126;
+}
+
+.feature-item p a {
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #272727;
+    display: inline-block;
+    padding-top: 32px;
 }
