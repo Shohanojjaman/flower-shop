@@ -26,7 +26,7 @@ h6 {
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     height: 100%;
 }
@@ -36,11 +36,13 @@ h6 {
     color: #FFFFFF;
     padding: 20px 43px;
     border: 2px solid transparent;
+    display: inline-block;
     border-radius: 8px;
     font-size: 20px;
     font-weight: 700;
     transition: 0.3s;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .primary-btn:hover {
@@ -98,7 +100,7 @@ header {
 }
 
 .banner-text h1 {
-    font-size: 80px;
+    font-size: 65px;
 }
 
 .banner-text p {
@@ -213,7 +215,7 @@ section#deal {
 }
 
 .deal-description h2 {
-    font-size: 40px;
+    font-size: 37px;
 }
 
 .deal-description h2 span {
@@ -315,7 +317,7 @@ footer {
     color: #FFFFFFE5;
 }
 
-.footer-content p.copy {
+.footer-content p.copy-right {
     font-size: 16px;
     margin-top: 32px;
     color: #FFFFFF66;
