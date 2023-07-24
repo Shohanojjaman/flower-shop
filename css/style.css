@@ -15,6 +15,15 @@ body {
     font-weight: 400;
 }
 
+img {
+    max-width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -145,16 +154,21 @@ section#feature {
 .flower-img {
     border-radius: 300px 300px 0 0;
     padding: 110px 75px 0;
-    height: 550px;
+    height: 450px;
     display: flex;
     align-items: flex-end;
+    margin-bottom: 32px;
 }
 
-.flower-img img {
-    width: 310px;
-    height: auto;
-    max-height: 430px;
+.feature-item p {
+    font-style: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #272727;
+    text-decoration-line: underline;
+
 }
+
 
 .flower-img.one {
     background-color: #A7216226;
